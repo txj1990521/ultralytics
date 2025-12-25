@@ -1,0 +1,12 @@
+# train and val datasets (image directory or *.txt file with image paths)
+
+
+path: Z:/伊化煤矿/井筒壁漏水渗水检测
+train: images/train
+val: images/val
+test: images/val
+# number of classes
+nc: 1
+
+# class names
+names: ['wet']
